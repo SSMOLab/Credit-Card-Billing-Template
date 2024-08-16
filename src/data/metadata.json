@@ -1,10 +1,10 @@
 {
-      "belstarTemplateName": "credit-card-billing-template", 
-      "tenantTemplateName": "credit-card-billing-template",
-      "belstarTemplateVersion": "0.1.0",
-      "tenantTemplateVersion": "0.1.0",
+      "belstarTemplateName": "credit-card-bill", 
+      "tenantTemplateName": "credit-card-bill",
+      "belstarTemplateVersion": "0.2.0",
+      "tenantTemplateVersion": "0.2.0",
       "author": "", 
-      "description": "demo",
+      "description": "tuexp_003",
       "templateType": "信函",
-      "templateCode": "demo"
+      "templateCode": "tuexp_003"
     }

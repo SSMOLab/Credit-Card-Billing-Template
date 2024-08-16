@@ -1,4 +1,4 @@
-# Credit-Card-Billing-Template
+# Credit Card Bill
 
 ## SSMOLab 信用卡帳單模板
 
