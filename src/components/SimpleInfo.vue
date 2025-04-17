@@ -9,7 +9,7 @@
           <br />
         </address>
         <p>{{ simpleInfo.addressee }}</p>
-        <img src="../assets/img/address-code39.png" class="my-2" />
+        <img src="../assets/img/address-code39.png" class="w-[16rem] h-8 my-2" />
       </div>
       <img src="../assets/img/address-barcode.png" class="h-16 my-3" />
     </section>

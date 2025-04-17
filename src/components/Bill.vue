@@ -1,23 +1,14 @@
 <template>
-  <div
-    class="flex  items-center border-t  border-dashed break-inside  py-1 break-inside border-black"
-  >
-    <div
-      class="flex text-xs flex-col border-r  border-dashed mx-1 border-black"
-    >
+  <div class="flex  items-center border-t  border-dashed break-inside  py-1 break-inside border-black">
+    <div class="flex text-xs flex-col border-r  border-dashed mx-1 border-black">
       <!-- barcode -->
       <div class="flex items-center text-xs  justify-around">
         <span>
           <p class=" break-words ml-2">
             便利商店使用(繳交上限為2萬元)
           </p>
-          <img
-            width="100"
-            v-for="(url, index) in bill.paymentBarcode"
-            :key="index"
-            src="../assets/img/address-barcode.png"
-            class="mt-1 h-16 w-16"
-          />
+          <img width="100" v-for="(url, index) in bill.paymentBarcode" :key="index"
+            src="../assets/img/address-barcode.png" class="mt-1 h-16 w-16" />
         </span>
         <div class="flex flex-col justify-end">
           <span v-for="(paid, index) in bill.paidBarcode" :key="index">
@@ -25,11 +16,7 @@
             <label>
               {{ paid.label }}
             </label>
-            <img
-              src="../assets/img/address-barcode.png"
-              width="100"
-              class="h-16 w-16"
-            />
+            <img src="../assets/img/address-barcode.png" width="100" class="h-16 w-16" />
           </span>
         </div>
       </div>
@@ -46,7 +33,7 @@
           </tr>
           <tr>
             <td>全行代理<br />收款專戶</td>
-            <td colspan="2">同源銀行（代收類別:400212）</td>
+            <td colspan="2">圖靈文本銀行（代收類別:400212）</td>
             <td colspan="2" class="text-xs">
               自動繳款機繳款：輸入銀行代碼"021"及信用卡號網路繳費準備好您的她行活存帳戶進入轉帳繳費中心
             </td>
@@ -71,11 +58,7 @@
           <tr>
             <td>認證欄</td>
             <td colspan="4">
-              <img
-                src="../assets/img/address-barcode.png"
-                width="60"
-                class="float-right pt-2"
-              />
+              <img src="../assets/img/address-barcode.png" width="60" class="float-right pt-2" />
               <p class="clear-right">
                 手機掃描右側QRcode，以您的他行活存線上直接繳交卡費
               </p>
@@ -88,13 +71,8 @@
         </div>
       </div>
       <div class="flex justify-around">
-        <img
-          src="../assets/img/address-barcode.png"
-          width="100"
-          class="mt-2 h-16 w-16"
-          v-for="(collection, index) in bill.collectionBarcode"
-          :key="index"
-        />
+        <img src="../assets/img/address-barcode.png" width="100" class="mt-2 h-16 w-16"
+          v-for="(collection, index) in bill.collectionBarcode" :key="index" />
       </div>
     </div>
     <!-- 第二聯table -->
@@ -109,9 +87,7 @@
         </tr>
         <tr>
           <td v-for="(unit, index) in bill.user.money" :key="index">
-            <p
-              class="border-b-2 items-center justify-center flex h-6 border-black"
-            >
+            <p class="border-b-2 items-center justify-center flex h-6 border-black">
               {{ unit.unit }}
             </p>
             <p class="h-4 flex items-center justify-center font-light">
