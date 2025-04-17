@@ -18,9 +18,9 @@
           <img src="../assets/img/enjoy.jpg" class="border border-black" />
         </div>
         <div class="w-1/2 pl-1">
-          <img src="../assets/img/delivery.jpg" class="my-1 border border-black" />
-          <img src="../assets/img/festival.jpg" class="my-1 border border-black" />
-          <img src="../assets/img/giveBack.jpg" class="my-1 border border-black" />
+          <img src="../assets/img/delivery.png" class="my-1 border border-black w-[24.5rem] h-[13.37rem]" />
+          <img src="../assets/img/festival.png" class="my-1 border border-black w-[24.5rem] h-[13.37rem]" />
+          <img src="../assets/img/giveBack.png" class="my-1 border border-black w-[24.5rem] h-[13.37rem]" />
           <AdvertisingCard :advertisingCard="info.advertisingCard" />
         </div>
       </div>
